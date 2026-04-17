@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="UTF-8">
+<title>खानेपानी बोर्ड - नीलकण्ठ नगरपालिका</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* HEADER */
+.header {
+    background: #0b5394;
+    color: white;
+    padding: 15px;
+}
+
+/* FLEX HEADER */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+.logo img {
+    height: 80px;
+    width: auto;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    flex: 1;
+}
+
+.title h1 {
+    margin: 5px;
+    font-size: 22px;
+}
+
+.title h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* MENU */
+.menu {
+    background: #083c6b;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #0056b3;
+}
+
+/* CONTENT */
+.container {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/* FOOTER */
+.footer {
+    background: #0b5394;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+
+    <div class="header-container">
+
+        <!-- Municipality Logo -->
+        <div class="logo">
+            <img src="washlogo.png" alt="खानेपानी बोर्ड लोगो">
+        </div>
+
+        <!-- TITLE -->
+        <div class="title">
+            <h1>नीलकण्ठ नगरपालिका</h1>
+            <h3>खानेपानी सरसफाई तथा स्वच्छता व्यवस्थापन वोर्ड</h3>
+            <h3>नीलकण्ठ -३ ,धादिङ</h3>
+        </div>
+
+        <!-- Water Board Logo -->
+        <div class="logo">
+            <img src="nmunlogo.jpg" alt="नगरपालिकाको लोगो ">
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MENU -->
+<div class="menu">
+    <a href="#">गृह पृष्ठ</a>
+    <a href="#about">बारेमा</a>
+    <a href="#services">सेवाहरू</a>
+    <a href="#notice">सूचना</a>
+    <a href="#complaint">गुनासो</a>
+    <a href="#contact">सम्पर्क</a>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <div class="card" id="about">
+        <h2>खानेपानी बोर्डको बारेमा</h2>
+        <p>
+        नीलकण्ठ नगरपालिकाको खानेपानी बोर्डले स्वच्छ, सुरक्षित र नियमित खानेपानी सेवा उपलब्ध गराउने उद्देश्यले कार्य गर्दै आएको छ।<br> 
+        
+        <img src="" height="50px" width="50px"><br>
+        <img src="" height="50px" width="50px">
+        <br>
+        <img src="" height="50px" width="50px">
+        </p>
+    </div>
+
+    <div class="card" id="services">
+        <h2>हाम्रो सेवाहरू</h2>
+        <ul>
+            <li>नयाँ धारा जडान</li>
+            <li>धारा मर्मत सेवा</li>
+            <li>पानी बिल व्यवस्थापन</li>
+            <li>आपतकालीन सेवा</li>
+        </ul>
+    </div>
+
+    <div class="card" id="notice">
+        <h2>सूचना</h2>
+        <p>यहाँ नयाँ सूचना तथा अपडेटहरू राखिनेछ।</p>
+    </div>
+
+    <div class="card" id="complaint">
+        <h2>गुनासो दर्ता</h2>
+
+        <form>
+            <label>नाम:</label><br>
+            <input type="text" style="width:100%;padding:8px;"><br><br>
+
+            <label>फोन:</label><br>
+            <input type="text" style="width:100%;padding:8px;"><br><br>
+
+            <label>गुनासो:</label><br>
+            <textarea style="width:100%;padding:8px;"></textarea><br><br>
+
+            <button type="submit" style="padding:10px;background:#0b5394;color:white;border:none;">
+                Submit
+            </button>
+        </form>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>सम्पर्क</h2>
+        <p>
+        नीलकण्ठ नगरपालिका, धादिङ<br>
+        फोन: 010520568<br>
+        Email:washneelakantha2082@gmail.com
+        Website:www.neelakanthamun.gov.np
+        </p>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 नीलकण्ठ नगरपालिका - खानेपानी बोर्ड
+</div>
+
+</body>
+</html>
